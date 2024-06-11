@@ -21,13 +21,13 @@ export default defineNuxtConfig({
         {rel:"stylesheet", href:"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"},
       ],
       script:[
+        {src: '/js/modernizr-3.5.0.min.js'},
         {src: 'https://code.jquery.com/jquery-3.6.0.min.js'}, // Ensure jQuery is loaded first
         {src: 'https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js'}, // Include Tether.js
         {src: '/js/bootstrap.js'}, // Bootstrap.js requires Tether.js
         {src: '/js/jquery.stellar.min.js'},
         {src: '/js/jquery.waypoints.min.js'},
         {src: '/js/main.js'},
-        {src: '/js/modernizr-3.5.0.min.js'},
         {src: '/js/owl.carousel.min.js'}, // Ensure this file exists in the correct directory
       ],
     },
