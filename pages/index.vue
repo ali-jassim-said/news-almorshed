@@ -100,7 +100,7 @@
           data-animate-effect="fadeIn"
         >
           <div class="fh5co_suceefh5co_height">
-            <img src="/images/nick-karvounis-78711.jpg" alt="img" />
+            <img src="/images/b1.jpg" alt="img" />
             <div class="fh5co_suceefh5co_height_position_absolute"></div>
             <div class="fh5co_suceefh5co_height_position_absolute_font">
               <div class="">
@@ -123,7 +123,7 @@
               data-animate-effect="fadeIn"
             >
               <div class="fh5co_suceefh5co_height_2">
-                <img src="/images/science-578x362.jpg" alt="img" />
+                <img src="/images/bg4.jpg" alt="img" />
                 <div class="fh5co_suceefh5co_height_position_absolute"></div>
                 <div class="fh5co_suceefh5co_height_position_absolute_font_2">
                   <div class="">
@@ -144,7 +144,7 @@
               data-animate-effect="fadeIn"
             >
               <div class="fh5co_suceefh5co_height_2">
-                <img src="/images/joe-gardner-75333.jpg" alt="img" />
+                <img src="../public/images/pexels-dung-ph-m-694024428-18207381.jpg" alt="img" />
                 <div class="fh5co_suceefh5co_height_position_absolute"></div>
                 <div class="fh5co_suceefh5co_height_position_absolute_font_2">
                   <div class="">
@@ -165,7 +165,7 @@
               data-animate-effect="fadeIn"
             >
               <div class="fh5co_suceefh5co_height_2">
-                <img src="/images/ryan-moreno-98837.jpg" alt="img" />
+                <img src="/images/pexels-meum-mare-204165854-19936040.jpg" alt="img" />
                 <div class="fh5co_suceefh5co_height_position_absolute"></div>
                 <div class="fh5co_suceefh5co_height_position_absolute_font_2">
                   <div class="">
@@ -186,7 +186,7 @@
               data-animate-effect="fadeIn"
             >
               <div class="fh5co_suceefh5co_height_2">
-                <img src="/images/10-1-1-875x500.jpg" alt="img" />
+                <img src="/images/pexels-valeriiamiller-25583967.jpg" alt="img" />
                 <div class="fh5co_suceefh5co_height_position_absolute"></div>
                 <div class="fh5co_suceefh5co_height_position_absolute_font_2">
                   <div class="">
@@ -218,7 +218,7 @@
             <div class="fh5co_latest_trading_img_position_relative">
               <div class="fh5co_latest_trading_img">
                 <img
-                  src="/images/allef-vinicius-108153.jpg"
+                  src="/images/pexels-dung-ph-m-694024428-18207381.jpg"
                   alt=""
                   class="fh5co_img_special_relative"
                 />
@@ -238,7 +238,7 @@
             <div class="fh5co_latest_trading_img_position_relative">
               <div class="fh5co_latest_trading_img">
                 <img
-                  src="/images/abigail-keenan-65477.jpg"
+                  src="/images/pexels-meum-mare-204165854-19936040.jpg"
                   alt=""
                   class="fh5co_img_special_relative"
                 />
@@ -258,7 +258,7 @@
             <div class="fh5co_latest_trading_img_position_relative">
               <div class="fh5co_latest_trading_img">
                 <img
-                  src="/images/ryan-moreno-98837.jpg"
+                  src="/images/pexels-valeriiamiller-25583967.jpg"
                   alt=""
                   class="fh5co_img_special_relative"
                 />
@@ -278,7 +278,7 @@
             <div class="fh5co_latest_trading_img_position_relative">
               <div class="fh5co_latest_trading_img">
                 <img
-                  src="/images/science-578x362.jpg"
+                  src="/images/b1.jpg"
                   alt=""
                   class="fh5co_img_special_relative"
                 />
@@ -298,7 +298,7 @@
             <div class="fh5co_latest_trading_img_position_relative">
               <div class="fh5co_latest_trading_img">
                 <img
-                  src="/images/nick-karvounis-78711.jpg"
+                  src="/images/bg4.jpg"
                   alt=""
                   class="fh5co_img_special_relative"
                 />
@@ -330,7 +330,7 @@
           <div class="item px-2">
             <div class="fh5co_hover_news_img">
               <div class="fh5co_news_img">
-                <img src="/images/39-324x235.jpg" alt="" />
+                <img src="/images/pexels-dung-ph-m-694024428-18207381.jpg" alt="" />
               </div>
               <div>
                 <a href="single.html" class="d-block fh5co_small_post_heading"
@@ -345,7 +345,7 @@
           <div class="item px-2">
             <div class="fh5co_hover_news_img">
               <div class="fh5co_news_img">
-                <img src="/images/joe-gardner-75333.jpg" alt="" />
+                <img src="/images/pexels-meum-mare-204165854-19936040.jpg" alt="" />
               </div>
               <div>
                 <a href="single.html" class="d-block fh5co_small_post_heading"
@@ -360,7 +360,7 @@
           <div class="item px-2">
             <div class="fh5co_hover_news_img">
               <div class="fh5co_news_img">
-                <img src="/images/ryan-moreno-98837.jpg" alt="" />
+                <img src="/images/pexels-valeriiamiller-25583967.jpg" alt="" />
               </div>
               <div>
                 <a href="single.html" class="d-block fh5co_small_post_heading"
@@ -375,7 +375,7 @@
           <div class="item px-2">
             <div class="fh5co_hover_news_img">
               <div class="fh5co_news_img">
-                <img src="/images/seth-doyle-133175.jpg" alt="" />
+                <img src="/images/b1.jpg" alt="" />
               </div>
               <div>
                 <a href="single.html" class="d-block fh5co_small_post_heading"
@@ -406,7 +406,7 @@
               <div class="col-md-5">
                 <div class="fh5co_hover_news_img">
                   <div class="fh5co_news_img">
-                    <img src="/images/nathan-mcbride-229637.jpg" alt="" />
+                    <img src="/images/pexels-meum-mare-204165854-19936040.jpg" alt="" />
                   </div>
                   <div></div>
                 </div>
@@ -428,7 +428,7 @@
               <div class="col-md-5">
                 <div class="fh5co_hover_news_img">
                   <div class="fh5co_news_img">
-                    <img src="/images/ryan-moreno-98837.jpg" alt="" />
+                    <img src="/images/pexels-meum-mare-204165854-19936040.jpg" alt="" />
                   </div>
                   <div></div>
                 </div>
@@ -451,7 +451,7 @@
                 <div class="fh5co_hover_news_img">
                   <div class="fh5co_news_img">
                     <img
-                      src="/images/photo-1449157291145-7efd050a4d0e-578x362.jpg"
+                      src="/images/b1.jpg"
                       alt=""
                     />
                   </div>
@@ -475,7 +475,7 @@
               <div class="col-md-5">
                 <div class="fh5co_hover_news_img">
                   <div class="fh5co_news_img">
-                    <img src="/images/office-768x512.jpg" alt="" />
+                    <img src="/images/pexels-meum-mare-204165854-19936040.jpg" alt="" />
                   </div>
                   <div></div>
                 </div>
@@ -505,7 +505,7 @@
             <div class="row pb-3">
               <div class="col-5 align-self-center">
                 <img
-                  src="/images/download (1).jpg"
+                  src="/images/pexels-dung-ph-m-694024428-18207381.jpg"
                   alt="img"
                   class="fh5co_most_trading"
                 />
@@ -520,7 +520,7 @@
             <div class="row pb-3">
               <div class="col-5 align-self-center">
                 <img
-                  src="/images/allef-vinicius-108153.jpg"
+                  src="/images/pexels-dung-ph-m-694024428-18207381.jpg"
                   alt="img"
                   class="fh5co_most_trading"
                 />
@@ -535,7 +535,7 @@
             <div class="row pb-3">
               <div class="col-5 align-self-center">
                 <img
-                  src="/images/download (2).jpg"
+                  src="/images/pexels-dung-ph-m-694024428-18207381.jpg"
                   alt="img"
                   class="fh5co_most_trading"
                 />
@@ -550,7 +550,7 @@
             <div class="row pb-3">
               <div class="col-5 align-self-center">
                 <img
-                  src="/images/seth-doyle-133175.jpg"
+                  src="/images/pexels-dung-ph-m-694024428-18207381.jpg"
                   alt="img"
                   class="fh5co_most_trading"
                 />
@@ -573,7 +573,7 @@
       <div class="container animate-box">
         <div class="row">
           <div class="col-12 spdp_right py-5">
-            <img src="/images/white_logo.png" alt="img" class="footer_logo" />
+            <img src="/images/image.png" alt="img" class="footer_logo" />
           </div>
           <div class="clearfix"></div>
           <div class="col-12 col-md-4 col-lg-5">
