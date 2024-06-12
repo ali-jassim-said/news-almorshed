@@ -70,15 +70,9 @@
     <div class="container-fluid fh5co_footer_right_reserved">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-6 py-4 Reserved spdp_right">
+          <div class="col-12 py-4 Reserved text-center">
             © حقوق النشر 2018، جميع الحقوق محفوظة. بواسطة
             <a href="#">أل-مرشد</a>.
-          </div>
-          <div class="col-12 col-md-6 py-4">
-            <a href="#" class="footer_last_part_menu">الرئيسية</a>
-            <a href="Contact_us.html" class="footer_last_part_menu">عن الموقع</a>
-            <a href="Contact_us.html" class="footer_last_part_menu">اتصل بنا</a>
-            <a href="blog.html" class="footer_last_part_menu">آخر الأخبار</a>
           </div>
         </div>
       </div>
