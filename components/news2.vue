@@ -18,10 +18,10 @@
                 </div>
               </div>
               <div class="col-md-7 animate-box d-flex flex-column align-items-end">
-                <a href="single.html" class="fh5co_magna py-2">
+                <a href="/single" class="fh5co_magna py-2">
                   اتفاق تاريخي بين السعودية وإيران
                 </a>
-                <a href="single.html" class="fh5co_mini_time py-3">
+                <a href="/single" class="fh5co_mini_time py-3">
                   محمد علي - 5 يونيو، 2024
                 </a>
                 <div class="fh5co_consectetur">
@@ -40,10 +40,10 @@
                 </div>
               </div>
               <div class="col-md-7 d-flex flex-column align-items-end">
-                <a href="single.html" class="fh5co_magna py-2">
+                <a href="/single" class="fh5co_magna py-2">
                   تقنية جديدة لتخزين الطاقة الشمسية
                 </a>
-                <a href="single.html" class="fh5co_mini_time py-3">
+                <a href="/single" class="fh5co_mini_time py-3">
                   ليلى أحمد - 4 يونيو، 2024
                 </a>
                 <div class="fh5co_consectetur">
@@ -65,10 +65,10 @@
                 </div>
               </div>
               <div class="col-md-7 d-flex flex-column align-items-end">
-                <a href="single.html" class="fh5co_magna py-2">
+                <a href="/single" class="fh5co_magna py-2">
                   اكتشاف علاج جديد للسرطان
                 </a>
-                <a href="single.html" class="fh5co_mini_time py-3">
+                <a href="/single" class="fh5co_mini_time py-3">
                   أحمد خالد - 3 يونيو، 2024
                 </a>
                 <div class="fh5co_consectetur">
@@ -87,10 +87,10 @@
                 </div>
               </div>
               <div class="col-md-7 d-flex flex-column align-items-end">
-                <a href="single.html" class="fh5co_magna py-2">
+                <a href="/single" class="fh5co_magna py-2">
                   تطوير جديد في مجال الذكاء الاصطناعي
                 </a>
-                <a href="single.html" class="fh5co_mini_time py-3">
+                <a href="/single" class="fh5co_mini_time py-3">
                   سارة محمود - 2 يونيو، 2024
                 </a>
                 <div class="fh5co_consectetur">

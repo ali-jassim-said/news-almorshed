@@ -15,7 +15,7 @@
                 </a>
               </div>
               <div class="">
-                <a href="single.html" class="fh5co_good_font"
+                <a href="single" class="fh5co_good_font"
                   >بعد كل ما قيل وفعل، يُقال أكثر مما يُفعل</a
                 >
               </div>
@@ -38,7 +38,7 @@
                     </a>
                   </div>
                   <div class="">
-                    <a href="single.html" class="fh5co_good_font_2"
+                    <a href="single" class="fh5co_good_font_2"
                       >بعد كل ما قيل وفعل، <br />يُقال أكثر مما يُفعل</a
                     >
                   </div>
@@ -59,7 +59,7 @@
                     </a>
                   </div>
                   <div class="">
-                    <a href="single.html" class="fh5co_good_font_2"
+                    <a href="single" class="fh5co_good_font_2"
                       >بعد كل ما قيل وفعل</a
                     >
                   </div>
@@ -80,7 +80,7 @@
                     </a>
                   </div>
                   <div class="">
-                    <a href="single.html" class="fh5co_good_font_2"
+                    <a href="single" class="fh5co_good_font_2"
                       >بعد كل ما قيل وفعل، يُقال أكثر مما يُفعل</a
                     >
                   </div>
@@ -101,7 +101,7 @@
                     </a>
                   </div>
                   <div class="">
-                    <a href="single.html" class="fh5co_good_font_2"
+                    <a href="single" class="fh5co_good_font_2"
                       >بعد كل ما قيل وفعل، يُقال أكثر
                     </a>
                   </div>

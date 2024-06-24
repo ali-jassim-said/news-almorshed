@@ -18,10 +18,10 @@
                 </div>
               </div>
               <div class="col-md-7 animate-box d-flex flex-column align-items-end">
-                <a href="single.html" class="fh5co_magna py-2">
+                <a href="/single" class="fh5co_magna py-2">
                   اتفاق تاريخي بين السعودية وإيران
                 </a>
-                <a href="single.html" class="fh5co_mini_time py-3">
+                <a href="/single" class="fh5co_mini_time py-3">
                   محمد علي - 5 يونيو، 2024
                 </a>
                 <div class="fh5co_consectetur">
@@ -40,10 +40,10 @@
                 </div>
               </div>
               <div class="col-md-7 animate-box d-flex flex-column align-items-end">
-                <a href="single.html" class="fh5co_magna py-2">
+                <a href="/single" class="fh5co_magna py-2">
                   اتفاق تاريخي بين السعودية وإيران
                 </a>
-                <a href="single.html" class="fh5co_mini_time py-3">
+                <a href="/single" class="fh5co_mini_time py-3">
                   محمد علي - 5 يونيو، 2024
                 </a>
                 <div class="fh5co_consectetur">
@@ -62,10 +62,10 @@
                 </div>
               </div>
               <div class="col-md-7 animate-box d-flex flex-column align-items-end">
-                <a href="single.html" class="fh5co_magna py-2">
+                <a href="/single" class="fh5co_magna py-2">
                   اتفاق تاريخي بين السعودية وإيران
                 </a>
-                <a href="single.html" class="fh5co_mini_time py-3">
+                <a href="/single" class="fh5co_mini_time py-3">
                   محمد علي - 5 يونيو، 2024
                 </a>
                 <div class="fh5co_consectetur">
@@ -93,10 +93,10 @@
                 </div>
               </div>
               <div class="col-md-7 animate-box d-flex flex-column align-items-end">
-                <a href="single.html" class="fh5co_magna py-2">
+                <a href="/single" class="fh5co_magna py-2">
                   اتفاق تاريخي بين السعودية وإيران
                 </a>
-                <a href="single.html" class="fh5co_mini_time py-3">
+                <a href="/single" class="fh5co_mini_time py-3">
                   محمد علي - 5 يونيو، 2024
                 </a>
                 <div class="fh5co_consectetur">
@@ -115,10 +115,10 @@
                 </div>
               </div>
               <div class="col-md-7 animate-box d-flex flex-column align-items-end">
-                <a href="single.html" class="fh5co_magna py-2">
+                <a href="/single" class="fh5co_magna py-2">
                   اتفاق تاريخي بين السعودية وإيران
                 </a>
-                <a href="single.html" class="fh5co_mini_time py-3">
+                <a href="/single" class="fh5co_mini_time py-3">
                   محمد علي - 5 يونيو، 2024
                 </a>
                 <div class="fh5co_consectetur">
@@ -137,10 +137,10 @@
                 </div>
               </div>
               <div class="col-md-7 animate-box d-flex flex-column align-items-end">
-                <a href="single.html" class="fh5co_magna py-2">
+                <a href="/single" class="fh5co_magna py-2">
                   اتفاق تاريخي بين السعودية وإيران
                 </a>
-                <a href="single.html" class="fh5co_mini_time py-3">
+                <a href="/single" class="fh5co_mini_time py-3">
                   محمد علي - 5 يونيو، 2024
                 </a>
                 <div class="fh5co_consectetur">
