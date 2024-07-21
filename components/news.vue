@@ -2,10 +2,10 @@
   <div class="container-fluid pb-4 pt-4 paddding">
     <div class="container paddding">
       <div class="row mx-0">
-        <div class="col-md-7 animate-box">
+        <div class="col-md-9 animate-box">
           <div>
             <div class="fh5co_heading fh5co_heading_border_bottom py-2 mb-4">
-              الأخبار
+              الاخبار الرياضية
             </div>
           </div>
           <div v-if="loading" class="d-flex justify-content-center align-items-center">
@@ -14,22 +14,23 @@
           <div v-else-if="error" class="text-center text-danger">Error: {{ error }}</div>
           <div v-else>
             <div v-for="post in posts" :key="post.id" class="row pb-5">
-              <div class="col-md-7">
-                <div class="fh5co_hover_news_img">
+              <div class="col-lg-5 col-md-5">
+                <div class="fh5co_hover_news_img" style="width: 100%;
+                   height: 100%;">
                   <div class="fh5co_news_img">
                     <img :src="'http://127.0.0.1:8000/'+post.image" alt="" />
                   </div>
                   <div></div>
                 </div>
               </div>
-              <div class="col-md-5 animate-box d-flex flex-column align-items-end">
-                <router-link :to="'/single/' + post.id" class="fh5co_magna py-2">
+              <div class="col-lg-6 col-md-7 animate-box d-flex flex-column align-items-end mobile-sport">
+                <nuxt-link :to="`/details/${post.id}`" class="fh5co_magna py-2">
                   {{ post.ar_title }}
-                </router-link>
+                </nuxt-link>
                 <div class="most_fh5co_treding_font_123">{{ formatDate(post.created_at) }}</div>
-                <router-link :to="'/single/' + post.id" class="fh5co_mini_time py-3">
+                <div class="fh5co_mini_time py-3" style="text-align: end">
                   {{ post.ar_author }}
-                </router-link>
+                </div>
                 <div class="fh5co_consectetur">
                   {{ post.ar_mini_description }} 
                 </div>
@@ -37,8 +38,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-1"></div>
-        <div class="col-md-4 animate-box">
+        <div class="col-md-3 animate-box">
           <div>
             <div class="fh5co_heading fh5co_heading_border_bottom py-2 mb-4">
               الأخبار
@@ -47,12 +47,9 @@
           <div v-if="!loading && !error">
             <div v-for="post in posts" :key="post.id" class="row pb-5">
               <div class="col-md-12 animate-box d-flex flex-column align-items-end">
-                <router-link :to="'/single/' + post.id" class="fh5co_magna py-2">
+                <nuxt-link :to="`/details/${post.id}`" class="fh5co_magna py-2">
                   {{ post.ar_title }}
-                </router-link>
-                <router-link :to="'/single/' + post.id" class="fh5co_mini_time py-3">
-                  {{ post.ar_author }}
-                </router-link>
+                </nuxt-link>
                 <span class="most_fh5co_treding_font_123">{{ formatDate(post.created_at) }}</span>
                 <div class="fh5co_consectetur">
                    {{ post.ar_mini_description }} 
@@ -108,4 +105,10 @@ const formatDate = (dateString) => {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+@media(min-width: 500px){
+    .mobile-sport{
+      padding: 0 0 5px 1px;
+    }
+  }
 </style>

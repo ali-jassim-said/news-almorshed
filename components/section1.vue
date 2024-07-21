@@ -14,17 +14,16 @@
           <div class="fh5co_suceefh5co_height_position_absolute"></div>
           <div class="fh5co_suceefh5co_height_position_absolute_font">
             <div>
-              <a href="#" class="color_fff">
+              <div class="color_fff">
                 <i class="fa fa-clock-o"></i>&nbsp;&nbsp;{{
                   formatDate(importantPosts[0].created_at)
                 }}
-              </a>
+              </div>
             </div>
             <div>
-              <a
-                :href="'single/' "
-                class="fh5co_good_font"
-                >{{ importantPosts[0].ar_title }}</a
+              <nuxt-link :to="`/details/${importantPosts[0].id}`"
+                class="fh5co_good_font mobile-important"
+                >{{ importantPosts[0].ar_title }}</nuxt-link
               >
             </div>
           </div>
@@ -43,16 +42,16 @@
               <div class="fh5co_suceefh5co_height_position_absolute"></div>
               <div class="fh5co_suceefh5co_height_position_absolute_font_2">
                 <div>
-                  <a href="#" class="color_fff">
+                  <div class="color_fff">
                     <i class="fa fa-clock-o"></i>&nbsp;&nbsp;{{
                       formatDate(post.created_at)
                     }}
-                  </a>
+                  </div>
                 </div>
                 <div>
-                  <a :href="'single/' + post.id" class="fh5co_good_font_2"> {{
+                  <nuxt-link :to="`/details/${post.id}`" class="fh5co_good_font_2 mobile-important"> {{
                     post.ar_title
-                  }}</a>
+                  }}</nuxt-link>
                 </div>
               </div>
             </div>
@@ -63,7 +62,7 @@
     <div v-else-if="importantLoading" class="d-flex justify-content-center align-items-center">
       <div class="spinner"></div>
     </div>
-    <div v-if="importantError" class="error">Error: {{ importantError }}</div>
+    <div v-if="importantError" class="text-center text-danger error">Error: {{ importantError }}</div>
   </div>
 </template>
 
@@ -86,3 +85,11 @@ const formatDate = (dateString) => {
   return new Date(dateString).toLocaleDateString("ar-EG", options);
 };
 </script>
+
+<style scoped>
+@media(max-width: 1100px){
+    .mobile-important{
+      font-size: 16px;
+    }
+  }
+</style>
