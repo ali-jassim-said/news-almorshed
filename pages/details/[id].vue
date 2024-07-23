@@ -22,7 +22,7 @@
               <a href="#" class="fh5co_mini_time py-3">
                 {{ post.author }} - {{ formatDate(post.created_at) }}
               </a>
-              <div class="fh5co_consectetur">{{ post.ar_description }}</div>
+              <div v-html="renderedDescription" class="fh5co_consectetur"></div>
             </div>
           </div>
         </div>
@@ -48,6 +48,7 @@ const importantStore = useImportantStore();
 const mostPopularStore = useMostPopularStore();
 const policiesStore = usePoliciesStore();
 const sportsStore = useSportsStore();
+const { $md } = useNuxtApp();
 
 onMounted(async () => {
   await importantStore.fetchPostById(route.params.id);
@@ -76,6 +77,10 @@ const formatDate = (dateString) => {
   const options = { year: 'numeric', month: 'long', day: 'numeric' };
   return new Date(dateString).toLocaleDateString('ar-EG', options);
 };
+
+const renderedDescription = computed(() => {
+  return post.value ? $md.render(post.value.ar_description) : '';
+});
 </script>
 
 <style scoped>
