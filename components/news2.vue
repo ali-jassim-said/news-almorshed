@@ -23,14 +23,14 @@
                 </div>
               </div>
               <div class="col-lg-6 col-md-7 animate-box d-flex flex-column align-items-end p-1 mobile" style="padding: 0 0 2px 3px !important;">
-                <nuxt-link :to="`/details/${post.id}`" class="fh5co_magna py-2">
+                <nuxt-link :to="`/details/${post.id}`" class="fh5co_magna py-2" style="text-align: end;">
                   {{ post.ar_title }}
                 </nuxt-link>
                 <div class="most_fh5co_treding_font_123">{{ formatDate(post.created_at) }}</div>
                 <div class="fh5co_mini_time py-2">
                   {{ post.ar_author }}
                 </div>
-                <div class="fh5co_consectetur">
+                <div class="fh5co_consectetur" style="text-align: end;">
                   {{ post.ar_mini_description }} 
                 </div>
               </div>
@@ -54,7 +54,7 @@
                 <img :src="'http://127.0.0.1:8000/'+post.image" alt="img" class="fh5co_most_trading" />
               </div>
               <div class="col-7 paddding" style="direction: rtl">
-                <nuxt-link :to="`/details/${post.id}`" class="most_fh5co_treding_font">
+                <nuxt-link :to="`/details/${post.id}`" class="most_fh5co_treding_font" style="text-align: end;">
                   {{ post.ar_title }}
                 </nuxt-link>
                 <div class="most_fh5co_treding_font_123">{{ formatDate(post.created_at) }}</div>
