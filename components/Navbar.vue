@@ -53,22 +53,22 @@
               </NuxtLink>
             </li>
             <li class="nav-item mx-2">
-              <NuxtLink :to="{ name: 'section2' }">
-                <a class="nav-link nav-app" href="/section2"
+              <NuxtLink :to="{ name: 'sports' }">
+                <a class="nav-link nav-app" href="/sports"
                   >الرياضية <span class="sr-only">(current)</span></a
                 ></NuxtLink
               >
             </li>
             <li class="nav-item mx-2">
-              <NuxtLink :to="{ name: 'section3' }">
-                <a class="nav-link nav-app" href="/section3"
+              <NuxtLink :to="{ name: 'economy' }">
+                <a class="nav-link nav-app" href="/economy"
                   >الاقتصادية <span class="sr-only">(current)</span></a
                 >
               </NuxtLink>
             </li>
             <li class="nav-item mx-2">
-              <NuxtLink :to="{ name: 'section4' }">
-                <a class="nav-link nav-app" href="/section4"
+              <NuxtLink :to="{ name: 'policy' }">
+                <a class="nav-link nav-app" href="/policy"
                   >السياسيه <span class="sr-only">(current)</span></a
                 >
               </NuxtLink>

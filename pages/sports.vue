@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid pb-4 pt-4 paddding">
-    <div class="container paddding">
+    <div class="container paddding vh">
       <div class="mx-0">
         <div class="col-md-12 animate-box">
           <div>
@@ -10,7 +10,7 @@
           </div>
           <div
             v-if="loading"
-            class="d-flex justify-content-center align-items-center"
+            class="d-flex justify-content-center align-items-center vh"
           >
             <div class="spinner"></div>
           </div>
