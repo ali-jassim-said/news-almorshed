@@ -2,6 +2,7 @@
   <div class="container-fluid pb-4 pt-4 paddding">
     <div class="container paddding">
       <div class="row mx-0">
+        <!-- Sports News Section -->
         <div class="col-md-9 animate-box">
           <div>
             <div class="fh5co_heading fh5co_heading_border_bottom py-2 mb-4">
@@ -9,16 +10,16 @@
             </div>
           </div>
           <div
-            v-if="loading"
+            v-if="sportsLoading"
             class="d-flex justify-content-center align-items-center"
           >
             <div class="spinner"></div>
           </div>
-          <div v-else-if="error" class="text-center text-danger">
-            Error: {{ error }}
+          <div v-else-if="sportsError" class="text-center text-danger">
+            Error: {{ sportsError }}
           </div>
           <div v-else>
-            <div v-for="post in posts" :key="post.id" class="row pb-5">
+            <div v-for="post in sportsPosts.slice(0, 10)" :key="post.id" class="row pb-5">
               <div class="col-lg-5 col-md-5">
                 <div
                   class="fh5co_hover_news_img"
@@ -49,14 +50,16 @@
             </div>
           </div>
         </div>
+        
+        <!-- Economy News Section -->
         <div class="col-md-3 animate-box">
           <div>
             <div class="fh5co_heading fh5co_heading_border_bottom py-2 mb-4">
-              الأخبار
+             الاقتصادية
             </div>
           </div>
-          <div v-if="!loading && !error">
-            <div v-for="post in posts" :key="post.id" class="row pb-5">
+          <div v-if="!economyLoading && !economyError">
+            <div v-for="post in economyPosts.slice(0, 15)" :key="post.id" class="row pb-5">
               <div
                 class="col-md-12 animate-box d-flex flex-column align-items-end"
               >
@@ -66,20 +69,19 @@
                 <span class="most_fh5co_treding_font_123">{{
                   formatDate(post.created_at)
                 }}</span>
-                <div class="fh5co_consectetur" style="text-align: end;
-">
+                <div class="fh5co_consectetur" style="text-align: end;">
                   {{ post.ar_mini_description }}
                 </div>
               </div>
             </div>
           </div>
           <div
-            v-else-if="loading"
+            v-else-if="economyLoading"
             class="d-flex justify-content-center align-items-center"
           >
             <div class="spinner"></div>
           </div>
-          <div v-else class="text-center text-danger">Error: {{ error }}</div>
+          <div v-else class="text-center text-danger">Error: {{ economyError }}</div>
         </div>
       </div>
     </div>
@@ -88,9 +90,11 @@
 
 <script setup>
 import { useSportsStore } from "~/stores/sports";
+import { useEconomyStore } from "~/stores/economy"; // Import the new store
 import { onMounted, computed } from "vue";
 import { useRouter } from "vue-router";
 
+// Sports Store
 const sportsStore = useSportsStore();
 const router = useRouter();
 
@@ -98,9 +102,20 @@ onMounted(() => {
   sportsStore.fetchPosts();
 });
 
-const posts = computed(() => sportsStore.posts);
-const loading = computed(() => sportsStore.loading);
-const error = computed(() => sportsStore.error);
+const sportsPosts = computed(() => sportsStore.posts);
+const sportsLoading = computed(() => sportsStore.loading);
+const sportsError = computed(() => sportsStore.error);
+
+// Economy News Store
+const economyStore = useEconomyStore();
+
+onMounted(() => {
+  economyStore.fetchEconomyPosts();
+});
+
+const economyPosts = computed(() => economyStore.posts);
+const economyLoading = computed(() => economyStore.loading);
+const economyError = computed(() => economyStore.error);
 
 const formatDate = (dateString) => {
   const options = { year: "numeric", month: "long", day: "numeric" };

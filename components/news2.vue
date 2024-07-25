@@ -14,7 +14,7 @@
           </div>
           <div v-else-if="error" class="text-center text-danger">Error: {{ error }}</div>
           <div v-else>
-            <div v-for="post in posts" :key="post.id" class="row pb-4">
+            <div v-for="post in posts.slice(0, 12)" :key="post.id" class="row pb-4">
               <div class="col-lg-5 col-md-5">
                 <div class="fh5co_hover_news_img">
                   <div class="fh5co_news_img">
@@ -49,7 +49,7 @@
           </div>
           <div v-else-if="popularError" class="text-center text-danger">Error: {{ popularError }}</div>
           <div v-else>
-            <div v-for="post in popularPosts" :key="post.id" class="row pb-3">
+            <div v-for="post in popularPosts.slice(0, 15)" :key="post.id" class="row pb-3">
               <div class="col-5 align-self-center">
                 <img :src="'http://127.0.0.1:8000/'+post.image" alt="img" class="fh5co_most_trading" />
               </div>

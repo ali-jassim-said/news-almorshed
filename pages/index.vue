@@ -1,7 +1,7 @@
 <template>
   <section1 />
+   <news2 />
   <news />
-  <news2 />
 </template>
 <script>
 

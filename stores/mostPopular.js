@@ -14,7 +14,7 @@ export const useMostPopularStore = defineStore('mostPopular', {
       this.loading = true;
       this.error = null;
       try {
-        const response = await axios.get('http://127.0.0.1:8000/api/posts?size=6&type=mostPopular&website=one');
+        const response = await axios.get('http://127.0.0.1:8000/api/posts?size=100&type=mostPopular&website=one');
         this.posts = response.data.data;
       } catch (err) {
         this.error = err.message;

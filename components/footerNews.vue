@@ -3,7 +3,7 @@
     <div class="container animate-box">
       <div class="row">
         <div class="col-12 spdp_right py-5">
-          <img src="/images/image.png" alt="img" class="footer_logo" />
+          <img src="/images/logo.svg" alt="img" class="footer_logo" />
         </div>
         <div class="clearfix"></div>
         <div class="col-12 col-md-4 col-lg-5">
@@ -18,11 +18,10 @@
           <div class="footer_main_title py-3 d-flex justify-content-end">
             الفئات الرئيسية
           </div>
-          <ul class="footer_menu">
-            <li><a href="#" class="category-footer">السياسية</a></li>
-            <li><a href="#" class="category-footer">الرياضية</a></li>
-            <li><a href="#" class="category-footer">الاقتصادية</a></li>
-            <li><a href="#" class="category-footer">الأمنية</a></li>
+          <ul class="footer_menu" style="direction: rtl;">
+            <li><NuxtLink :to="{ name: 'policy' }"><a href="#" class="category-footer">السياسية</a></NuxtLink></li>
+            <li><NuxtLink :to="{ name: 'sports' }"><a href="#" class="category-footer">الرياضية</a></NuxtLink></li>
+            <li><NuxtLink :to="{ name: 'economy' }"><a href="#" class="category-footer">الاقتصادية</a></NuxtLink></li>
           </ul>
         </div>
         <div class="col-12 col-md-5 col-lg-4 position_footer_relative">

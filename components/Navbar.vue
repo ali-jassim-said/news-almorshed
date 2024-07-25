@@ -4,7 +4,7 @@
       <div class="row d-flex flex-row-reverse">
         <div class="col-12 col-md-3 fh5co_padding_menu">
           <img
-            src="/public/images/image.png"
+            src="/public/images/logo.svg"
             alt="img"
             class="fh5co_logo_width"
           />

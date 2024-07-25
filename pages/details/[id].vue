@@ -22,7 +22,7 @@
               <a href="#" class="fh5co_mini_time py-3">
                 {{ post.author }} - {{ formatDate(post.created_at) }}
               </a>
-              <div v-html="renderedDescription" class="fh5co_consectetur"></div>
+              <div v-html="renderedDescription" class="fh5co_consectetur end"></div>
             </div>
           </div>
         </div>
@@ -98,5 +98,9 @@ const renderedDescription = computed(() => {
 
 .load{
   min-height: 50vh;
+}
+
+.end {
+  text-align: end;
 }
 </style>
