@@ -6,7 +6,7 @@
         <div class="col-lg-7 col-md-8 animate-box" data-animate-effect="fadeInLeft">
           <div>
             <div class="fh5co_heading fh5co_heading_border_bottom py-2 mb-4">
-              سياسه
+              الاخبار السياسية
             </div>
           </div>
           <div v-if="loading" class="d-flex justify-content-center align-items-center">

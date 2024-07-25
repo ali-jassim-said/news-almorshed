@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
+      title: 'وكالة الشارع العراقي', 
       meta: [
         {charset: 'utf8'},
         {name: 'viewport', content: 'width=device-width, initial-scale=1'},
